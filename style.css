@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: darkgray;
+}
+.resultDataEntryForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    background: #f5f6f8;
+}
+.result_heading h1 {
+    color: #cf6a87;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.menu {
+    display: inline-flex;
+}
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li {
+    margin-right: 20px;
+}
+.menu ul li a,
+.from_btn {
+    text-decoration: none;
+    background: #ff4b36;
+    color: #fff;
+    padding: 16px 30px;
+    display: inline-block;
+    border: 1px solid #ff4b36;
+    border-radius: 30px;
+    transition-duration: .6s;
+}
+.menu ul li a:hover,
+.from_btn:hover{
+    color: #ff4b36;
+    background: #fff;
+    border: 1px solid #ff4b36;
+}
+.result_form {
+    margin-top: 30px;
+}
+/* Create tabal ar css */
+label {
+    font-weight: 700;
+}
+input {
+    width: 28%;
+    border: 1px solid #a9aaaa;
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px;
+}
+table {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background: #ff4b36;
+    color: #f5f6f8;
+}
+td {
+    background: #40739e;
+    color: #f5f6fa;
+}
+th,td{
+    border: 1px solid #f1c1d9;
+    padding: 10px;
+}
+/* Edit area */
+.edit_icon {
+    color: #00eeff;
+}
+.delect_icon {
+    color: #ff4b36;
+}
